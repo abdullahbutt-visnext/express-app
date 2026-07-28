@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Notes API");
+  res.send("Welcome to Express App practice");
 });
 
 export default app;
